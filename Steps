@@ -1,0 +1,27 @@
+    @Given("el usuario se encuentra en la pantalla de home")
+    public void elUsuarioSeEncuentraEnLaPantallaDeHome() {HomeService.navegarWeb();}
+   
+    @When ("el usuario hace click en el botón Dresses")
+    public void elUsuarioHaceClickEnElBotónDresse() {
+        ProductosEnElCarritoService.elUsuarioHaceClickEnElBotónDresse();}
+
+    @And ("el usuario hace click en la opción Evening Dresses")
+	   public void elUsuarioHaceClickEnLaOpciónEveningDresses() {
+        ProductosEnElCarritoService.elUsuarioHaceClickEnLaOpciónEveningDresses();}
+	
+    @And ("el usuario hace click en el botón azul de Add to cart")
+	public void elUsuarioHaceClickBtónAddToCart() {
+        ProductosEnElCarritoService.elUsuarioHaceClickBtónAddToCart();}
+	
+    @And ("el usuario hace click en el botón x")
+	public void elUsuarioHaceClickBtónX() {
+        ProductosEnElCarritoService.elUsuarioHaceClickBtónX();}
+		
+    @And ("el usuario visualiza el producto seleccionado")
+	public void elUsuarioVisualizaElProductoSeleccionado() {
+        ProductosEnElCarritoService.elUsuarioVisualizaElProductoSeleccionado();}
+		
+    @Then ("comprobar que el vestido sea el que seleccionamos previamente")
+	public void ecomprobarQueElVestidoSeaElQueSeleccionamosPreviamente() {
+    ProductosEnElCarritoService.comprobarQueElVestidoSeaElQueSeleccionamosPreviamente();}
+	
