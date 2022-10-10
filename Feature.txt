@@ -1,0 +1,12 @@
+Feature: Visualizar producto en carrito
+
+Scenario: Agregar un vestido al carrito
+    Given el usuario se encuentra en la pantalla de home
+    When el usuario hace click en el botón Dresses
+    And el usuario hace click en la opción "Evening Dresses"
+    And el usuario hace click en el botón azul de "Add to cart" 
+    And el usuario hace click en el botón x 
+    And el usuario visualiza el producto seleccionado
+    Then comprobar que el vestido sea el que seleccionamos previamente
+	
+	
