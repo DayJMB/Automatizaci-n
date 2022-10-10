@@ -22,6 +22,6 @@
         ProductosEnElCarritoService.elUsuarioVisualizaElProductoSeleccionado();}
 		
     @Then ("comprobar que el vestido sea el que seleccionamos previamente")
-	public void ecomprobarQueElVestidoSeaElQueSeleccionamosPreviamente() {
+	public void comprobarQueElVestidoSeaElQueSeleccionamosPreviamente() {
     ProductosEnElCarritoService.comprobarQueElVestidoSeaElQueSeleccionamosPreviamente();}
 	
